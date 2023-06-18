@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_paleontology"
+    android:scaleType="fitXY"
+    tools:context=".view.DaySelectionActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:text="День недели"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="#D6CFB0"
+        android:background="@drawable/shape_text"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <ImageButton
+            android:id="@+id/imageButtonMonday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="25dp"
+            app:srcCompat="@drawable/Monday"
+            android:backgroundTint="@null"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonTuesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="25dp"
+            app:srcCompat="@drawable/Tuesday"
+            android:backgroundTint="@null"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonWednesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="25dp"
+            app:srcCompat="@drawable/Wednesday"
+            android:backgroundTint="@null"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonThursday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="25dp"
+            app:srcCompat="@drawable/Thursday"
+            android:backgroundTint="@null"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonFriday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="25dp"
+            app:srcCompat="@drawable/Friday"
+            android:backgroundTint="@null"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonSaturday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="25dp"
+            app:srcCompat="@drawable/Saturday"
+            android:backgroundTint="@null"
+            android:background="@null"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
