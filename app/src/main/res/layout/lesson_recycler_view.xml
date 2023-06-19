@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="100dp"
     android:layout_margin="5dp"
-    android:background="@drawable/shape_notes_recycler_view"
+    android:background="@drawable/shape_lesson_recycler_view"
     android:id="@+id/mLayout">
 
     <TextView

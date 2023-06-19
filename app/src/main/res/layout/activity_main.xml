@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/forest_background"
+    android:background="@drawable/background"
     tools:context=".view.MainActivity">
 
     <ImageButton
@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo2" />
+        app:srcCompat="@drawable/logo" />
 
     <Button
         android:id="@+id/buttonEditLessons"
@@ -25,7 +25,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="130dp"
         android:text="Изменить уроки"
-        android:backgroundTint="#D38329"
+        android:backgroundTint="#CC9659"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonRemind" />
@@ -36,7 +36,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="14dp"
         android:text="Записать домашнее задание"
-        android:backgroundTint="#D38329"
+        android:backgroundTint="#CC9659"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonEditLessons" />

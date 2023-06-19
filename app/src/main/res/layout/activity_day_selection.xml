@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_paleontology"
+    android:background="@drawable/background"
     android:scaleType="fitXY"
     tools:context=".view.DaySelectionActivity">
 
@@ -12,7 +12,7 @@
         android:id="@+id/textView"
         android:layout_width="350dp"
         android:layout_height="70dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:text="День недели"
         android:textSize="23sp"
         android:textStyle="bold"
@@ -25,7 +25,7 @@
 
     <LinearLayout
         android:layout_width="350dp"
-        android:layout_height="500dp"
+        android:layout_height="570dp"
         android:layout_marginTop="30dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="25dp"
-            app:srcCompat="@drawable/Monday"
+            app:srcCompat="@drawable/monday"
             android:backgroundTint="@null"
             android:background="@null"/>
 
@@ -46,7 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="25dp"
-            app:srcCompat="@drawable/Tuesday"
+            app:srcCompat="@drawable/tuesday"
             android:backgroundTint="@null"
             android:background="@null"/>
 
@@ -55,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="25dp"
-            app:srcCompat="@drawable/Wednesday"
+            app:srcCompat="@drawable/wednesday"
             android:backgroundTint="@null"
             android:background="@null"/>
 
@@ -64,7 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="25dp"
-            app:srcCompat="@drawable/Thursday"
+            app:srcCompat="@drawable/thursday"
             android:backgroundTint="@null"
             android:background="@null"/>
 
@@ -73,7 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="25dp"
-            app:srcCompat="@drawable/Friday"
+            app:srcCompat="@drawable/friday"
             android:backgroundTint="@null"
             android:background="@null"/>
 
@@ -82,7 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="25dp"
-            app:srcCompat="@drawable/Saturday"
+            app:srcCompat="@drawable/saturday"
             android:backgroundTint="@null"
             android:background="@null"/>
     </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_library"
+    android:background="@drawable/background"
     tools:context=".view.UpdateActivity">
 
     <EditText
@@ -51,7 +51,7 @@
             android:id="@+id/update_lesson"
             android:layout_width="170dp"
             android:layout_height="70dp"
-            android:backgroundTint="#D38329"
+            android:backgroundTint="#BF7C30"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
             android:text="Обновить" />
@@ -60,7 +60,7 @@
             android:id="@+id/delete_lesson"
             android:layout_width="170dp"
             android:layout_height="70dp"
-            android:backgroundTint="#D38329"
+            android:backgroundTint="#BF7C30"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
             android:text="Удалить" />

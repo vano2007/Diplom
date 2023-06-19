@@ -12,10 +12,10 @@
         android:theme="@style/Theme.Diplom"
         tools:targetApi="31">
         <activity
-            android:name=".AddLessonActivity"
+            android:name=".view.AddLessonActivity"
             android:exported="false" />
         <activity
-            android:name=".UpdateActivity"
+            android:name=".view.UpdateActivity"
             android:exported="false" />
         <activity
             android:name=".view.day.SaturdayActivity"
